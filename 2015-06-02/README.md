@@ -1,4 +1,4 @@
-# Download responses of ajax calls for a set of pages
+# Download ajax calls responses for a set of pages
 
 ## The need
 
