@@ -41,7 +41,7 @@ casper.start('http://example.com/login', function() {
 
 casper.then(function() {
   casper.cli.args.forEach(function(arg) {
-    casper.thenOpen('http://elemez.com/' + arg, function() {});
+    casper.thenOpen('http://example.com/' + arg, function() {});
   });
 });
 
