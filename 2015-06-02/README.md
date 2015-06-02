@@ -2,10 +2,15 @@
 
 ## The need
 
-I needed to have 
-To create a demo of our system I had the need to get all of our URLs along with the data returned, for each page.
+Have a demo copy of our frontend with static data.
 
+## The solution
 
+I wanted a reusable solution, something I could pass a set of URLs, something that could track each ajax request and give me access to the payload. That something is [CasperJS](http://casperjs.org/).
+
+The hook I was looking for is an event called `resource.received` ([docs](http://docs.casperjs.org/en/latest/events-filters.html#events)), its callback receives a `resource` object which comes from PhantomJS as CasperJS just forwards the event ([docs](http://phantomjs.org/api/webpage/handler/on-resource-received.html)).
+
+Here is the simplified version of the code I've used, with bonus code for the login:
 
 ```javascript
 var fs = require('fs');
