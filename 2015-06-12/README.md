@@ -2,6 +2,8 @@
 
 I am studying data structures in my free time, because I feel like it's a huge gap in my skillset; while I was going through a [hacker rank exercise](https://www.hackerrank.com/challenges/swap-nodes-algo) I thought if it was possible to read a binary tree in [BFS](https://en.wikipedia.org/wiki/Breadth-first_search) and [DFS](https://en.wikipedia.org/wiki/Depth-first_search) just by changing the helper data structure.
 
+Don't take this as correct for granted (and it might as well sound obvious to you) as I'm still studying and there might be errors, in which case please do let me know!
+
 ## The idea
 
 BFS uses a queue while DFS uses a stack, provided the two datastructures have the same names we can change them without affecting the code.
