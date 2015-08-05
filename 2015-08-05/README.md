@@ -34,7 +34,7 @@ Before doing anthing I watched some video to understand the technique, I've foun
  
  After the first few diodes it becomes straighforward and once you're around the 20th you will see the difference.
  
- ### Controller
+### Controller
  
  This got me **a lot** of time, this is where I first got stuck.
  
