@@ -1,4 +1,4 @@
-# Building the Atreus
+# Building the Atreus keyboard
 
 I've always wanted a keyboard that I could easily bring with me, and use it everytime I have to code.<br />
 This way I don't have to switch between my laptop keyboard and my work one.
