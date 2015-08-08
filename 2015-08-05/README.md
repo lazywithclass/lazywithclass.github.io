@@ -65,4 +65,6 @@ You have to upload the [firmware](https://github.com/technomancy/atreus-firmware
 
 ### Wrapping up
 
-I checked that the keys were working as expected and of course they were not, I realised I somehow mounted them backwards (pressing "q" was showing "p" on screen), I have only blurred memories of those moments, I was starting to feel tired ^^'. I unsoldered and then proceeded soldering all switches with keycaps on top.
+I checked that the keys were working as expected and of course they were not, I realised I somehow mounted them backwards (pressing "q" was showing "p" on screen), I have only blurred memories of those moments, I was starting to feel tired ^^'. I desoldered and then proceeded soldering all switches with keycaps on top.
+
+As Phil Hagelberg pointed out it's not necessary to desolder in this case, you could [fix it from firmware](https://github.com/technomancy/atreus-firmware#pinout).
