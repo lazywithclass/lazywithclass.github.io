@@ -18,15 +18,15 @@ Under `Resources` define
 
 `Testing` here is just a reference to this roles declaration, it can be named whatever you want, what is important is that you bind it under `Launchconfig.Properties` like so
 
-```JSON
+```JavaScript
 "LaunchConfig": {                                                                    
   "Properties": {
     "IamInstanceProfile": { 
       "Ref": "Testing"
     },           
-    ...
+    // ...
   },
-  ...
+  // ...
 }
 ```
 
