@@ -36,5 +36,5 @@ I've found the relevant information buried in [this piece of documentation](http
 
 ## Why
 
-Not having keys around is a great benefit per se, because you start distributing them and it's easy to lose track of all places you put them in.<br />
+Not having keys around is a great benefit per se, because if you start distributing them it's easy to lose track of all places you put them in.<br />
 Attaching (or removing) a new policy to a role instead is really easy to do and it works right away, from the moment you save your changes.
