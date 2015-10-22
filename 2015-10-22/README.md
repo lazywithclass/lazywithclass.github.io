@@ -14,6 +14,7 @@ declare capture request len 400
 http-request capture req.body id 0
 # log it
 log-format {"%[capture.req.hdr(0)]"}
+```
 
 I've create a [small configuration file](https://gist.github.com/lazywithclass/d255bb4d2086b07be178) that could help you start experimenting with this feature.
 
