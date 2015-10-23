@@ -18,3 +18,4 @@ log-format {"%[capture.req.hdr(0)]"}
 
 I've create a [small configuration file](https://gist.github.com/lazywithclass/d255bb4d2086b07be178) that could help you start experimenting with this feature.
 
+By default it will also be logged in the `%hs` variable, have a look at [the docs section about logging](https://cbonte.github.io/haproxy-dconv/configuration-1.6.html#8.2.4) for more information.
