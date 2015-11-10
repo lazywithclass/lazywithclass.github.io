@@ -62,6 +62,6 @@ For sure you can be proactive and help yourself asking questions to understand i
 
 ## A proposal
 
-Scan through the resume - does the person list the skills you need?
-Phone interview - is the person a pleasant individual, and roughly knows a couple random things he listed?
+ * Scan through the resume - does the person list the skills you need?
+ * Phone interview - is the person a pleasant individual, and roughly knows a couple random things he listed?
 Onsite / Skype interview - technical, relevant questions
