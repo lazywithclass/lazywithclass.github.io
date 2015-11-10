@@ -28,7 +28,7 @@ make sure that you clearly state that
 
 Because it's important that you don't mark people down for actually following the specs.
 
-### This is our challenge. There are many like it, but this one is ours
+### This is our challenge, there are many like it, but this one is ours
 
 > "You are given the task to design and ultimately code a URL shortner service, how do you approach the problem?"
 
@@ -48,4 +48,5 @@ I am here. 8 years ago or something like that I tried setting up a service for u
 
 ### The interviewer is surprised by your solution
 
-But you still feel bad about it. I want to be surprised by them, not the other way around.
+But you still feel bad about it. I want to be surprised by them, not the other way around.<br />
+I understand this might be personal, but I tend to agree with the "don't be the smartest person in the room", in the sense that I would like to pass an interview just barely, I'd like to join a team where I barely have enough experience (probably experience is a better comparison term than smartness) to be there.
