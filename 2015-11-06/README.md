@@ -1,21 +1,32 @@
 # Thoughts on interviews
 
-"Disruptive startup, ground breaking startup" usually helps me a lot in finding where I don't want to go.
-
 These were actual interview experiences I went through, I do not want in any to criticise these employers way of interviewing people, rather I want to use their examples to reason about my point of view.
 
 [tl;dr](#a-proposal)
 
+### When it doesn't even start
+
+ * "Disruptive startup"
+ * "Ground breaking startup"
+ * whenever I can't see the company I'm applying for (it should be an immediate WTF but it's not perceived as such)
+
 ### Phone, strong foreign accent, difficult to understand exercise
 
-I wasn't sure 
+Before doubting the interview process by itself I find one should doubt the decision process that brought to choose:
+
+ 1) someone with a really strong accent to communicate in 5 minutes, over the phone, ...
+ 2) ... a difficult to understand problem that has an easy solution
+
+About 2) you might be tempted to say that it's part of the requirements of a good candidate to be able to understand a problem when at the first take (I strongly disagree, but let's assume it's ok).
+
+It's 1) that baffles me, I don't have anything against people with accents, I'm italian I know how do I sound lol, but I think it's reasonable to suggest that for a phone technical interview you should prefer someone that has a neutral pronounciation, so to convey the problem to the other end in the most understandable way possible. Unless you are hiring someone than has to know French, if so please state that into your offer so we won't both lose time, and what's worth I will not feel bad for a week for both having not understood the person and the problem.
 
 ### Here's a challenge, we will never answer back though
 
 This is the absolute worst.
 
-If you company has a live challenge that starts after a `curl` on some URL make it invalid (410 gone?), or make it more difficult, so that if someone gets it right you definitely want that person in your team.<br />
-Never forget to reply, it's extremely rude to the person which took the time and effort to finish the challenge.
+If you are not anymore hiring for a certain position, and you, for example, have a live challenge that starts after a `curl` on some URL make it invalid (410 gone?), or make it more difficult, so that if someone gets it right you definitely want that person in your team.<br />
+Never forget to reply, it's extremely rude to the person that took the time and effort to finish the challenge.
 
 ### Here's a challenge, we will mark you down for things in the specs
 
@@ -64,4 +75,10 @@ For sure you can be proactive and help yourself asking questions to understand i
 
  * Scan through the resume - does the person list the skills you need?
  * Phone interview - is the person a pleasant individual, and roughly knows a couple random things he listed?
-Onsite / Skype interview - technical, relevant questions
+ * Onsite / Skype interview - technical, relevant questions
+ * Contract / paid work - have the person work on actual problems you are facing and evaluate them for their work
+
+### Offer checklist
+
+ * Do you accept remote / offer sponsorship?
+ * Be open and include a salary range, are you really applying security through obscurity as engineers?
