@@ -69,15 +69,15 @@ For sure you can be proactive and help yourself asking questions to understand i
 
 After this rant I feel like I should say what makes a good interview IMHO:
 
- 1) Scan through the resume - does the person list the skills you need?
- 2) Phone interview - is the person a pleasant individual, and roughly knows a couple random things he listed?
- 3) Onsite / Skype interview - technical, relevant questions
- 4) Contract / paid work - have the person work on actual problems you are facing and evaluate them for their work
- 5) Offer - if you like the person make them happy
+ 1. Scan through the resume - does the person list the skills you need?
+ 2. Phone interview - is the person a pleasant individual, and roughly knows a couple random things he listed?
+ 3. Onsite / Skype interview - technical, relevant questions
+ 4. Contract / paid work - have the person work on actual problems you are facing and evaluate them for their work
+ 5. Offer - if you like the person make them happy
 
-It's really important to understand the difference between 2) and 3): 2) is a conversation you have with the person just to understand if they seems pleasant to talk with and they're not completely lying about their resume, 3) is an interview you have with that person. 
+It's really important to understand the difference between 2. and 3.: 2. is a conversation you have with the person just to understand if they seems pleasant to talk with and they're not completely lying about their resume, 3. is an interview you have with that person. 
 
-Differences are important: 2) conversation, 3) interview. Don't interview over the phone, give shy / introvert / ... people a chance to compete with others at the same level.
+Differences are important: 2. conversation, 3. interview. Don't interview over the phone, give shy / introvert / ... people a chance to compete with others at the same level.
 
 ### Offer checklist
 
