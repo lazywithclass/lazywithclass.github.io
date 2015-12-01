@@ -8,12 +8,12 @@ These were actual interview experiences I went through, I do not want in any to 
 
 What made you, the interviewer, choose
 
- 1) someone with a really strong accent to communicate in 5 minutes, over the phone, ...
- 2) ... a difficult to understand problem that has an easy solution
+ 1. someone with a really strong accent to communicate in 5 minutes, over the phone, ...
+ 2. ... a difficult to understand problem that has an easy solution
 
-About 2) you might be tempted to say that it's part of the requirements of a good candidate to be able to understand a problem when at the first take (I strongly disagree, but let's assume it's ok).
+About 2. you might be tempted to say that it's part of the requirements of a good candidate to be able to understand a problem when at the first take (I strongly disagree, but let's assume it's ok).
 
-1) baffles me, I don't have anything against people with accents, I'm italian I know how do I sound lol, but I think it's reasonable to suggest that for a phone technical interview you should prefer someone that has a neutral accent, so to convey the problem to the other end in the most understandable way possible. Unless you are hiring someone than has to know French, if so please state that into your offer so we won't both lose time, and what's worth I will not feel bad for a week for both having not understood the person and the problem.
+Point 1. baffles me, I don't have anything against people with accents, I'm italian I know how do I sound lol, but I think it's reasonable to suggest that for a phone technical interview you should prefer someone that has a neutral accent, so to convey the problem to the other end in the most understandable way possible. Unless you are hiring someone than has to know French, if so please state that into your offer so we won't both lose time, and what's worth I will not feel bad for a week for both having not understood the person and the problem.
 
 #### Here's a challenge, we will never answer back though
 
