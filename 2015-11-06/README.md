@@ -100,18 +100,3 @@ Differences are important: 2. conversation, 3. interview. Don't interview over t
 ### (almost) Everyone gets rejected
 
 http://rejected.us, it's fine just move on.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
