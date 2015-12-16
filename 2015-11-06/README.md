@@ -2,7 +2,7 @@
 
 These were actual interview experiences I went through, I am not criticising these employers' way of interviewing people, rather I want to use their examples to reason about my point of view.
 
-[tl;dr](#a-proposal)
+[tl;dr](#almost-everyone-gets-rejected)
 
 #### Phone, strong foreign accent, difficult to understand exercise
 
