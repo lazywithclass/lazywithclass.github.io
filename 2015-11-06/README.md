@@ -79,6 +79,10 @@ It's really important to understand the difference between 2. and 3.: 2. is a co
 
 Differences are important: 2. conversation, 3. interview. Don't interview over the phone, give shy / introvert / ... people a chance to compete with others at the same level.
 
+### (almost) Everyone gets rejected
+
+http://rejected.us, it's fine just move on.
+
 ### Offer checklist
 
  * Do you accept remote / offer sponsorship?
