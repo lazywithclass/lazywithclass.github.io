@@ -13,7 +13,7 @@ What made you, the interviewer, choose
 
 About 2. you might be tempted to say that it's part of the requirements of a good candidate to be able to understand a problem at the first take (I strongly disagree, but let's assume it's ok).
 
-Point 1. baffles me, I don't have anything against people with accents, I'm italian I know how do I sound lol, but I think it's reasonable to suggest that for a phone technical interview you should prefer someone that has a neutral accent, so to convey the problem to the other end in the most understandable way possible; unless you are hiring someone than has to know the other language, if so please state that into your offer so we won't both lose time, and what's worse I will not feel bad for a week for both having not understood the person and the problem.
+Point 1. baffles me, I don't have anything against people with accents, I'm italian I know how do I sound lol, but I think it's reasonable to suggest that for a phone technical interview you should prefer someone that has a neutral accent, so to convey the problem to the other end in the most understandable way possible; unless you are hiring someone that has to know the other language, if so please state that into your offer so we won't both lose time, and what's worse I will not feel bad for a week for both having not understood the person and the problem.
 
 #### Here's a challenge, we will never answer back though
 
@@ -27,7 +27,7 @@ Never forget to reply, it's extremely rude to the person that took the time and 
 
 Like... really?
 
-A simple "no" with a couple sentences explaining why your company does not give feedback is not enough, especially after I went through all the process. I want to know what I did wrong, if I some serious flaws that are not evident to me I want to exactly know what they are! Interviewing is also the way I confront myself with what I'm supposed to know for those dream companies I want to work for.
+A simple "no" with a couple sentences explaining why your company does not give feedback is not enough, especially after I went through all the process. I want to know what I did wrong, if I have some serious flaws that are not evident to me I want to exactly know what they are! Interviewing is also the way I confront myself with what I'm supposed to know for those dream companies I want to work for.
 
 #### Here's a challenge, we will mark you down for things in the specs
 
@@ -40,11 +40,11 @@ make sure that you clearly state that either
  * the solution should accept both, or
  * the solution can accept one or the other
 
-Because it's important that you don't mark people down for actually following the specs. Communication is king during the interview, it's really annoying when you're sure you did it right but no, in the end you didn't, especially if just misunderstood the specs, especially if you knew how to do it the other way also.
+Because it's important that you don't mark people down for small misunderstandings. Communication is king during the interview, it's really annoying when you're sure you did it right but no, in the end you didn't, especially if just misunderstood the specs, especially if you knew how to do it the other way also.
 
 #### This is our challenge, there are many like it, but this one is ours
 
-> "You are given the task to design and ultimately code a URL shortner service, how do you approach the problem?"
+> "You are given the task to design and code a URL shortner service, how do you approach the problem?"
 
 There are three possible scenarios here:
 
@@ -58,7 +58,7 @@ you are not feeling the pressure of coming up with "The Good Reasoning And Thoug
 
 * you start thinking about it
 
-I am here. 8 years ago or something like that I tried setting up a service for uploading images with a short url as result, but it's not something I recall with pride and it never worked out in practice. So I might say I tried but the gained experience wasn't enough for me to levmakel up.
+I am here. 
 
 The bottom line is: do you really want to hire a developer that aces interviews or a developer that can work their way through the problems they will face?
 
@@ -84,18 +84,18 @@ After all of this I feel like I should say what makes a good interview IMHO:
  4. Contract / paid work - have the person work on actual problems you are facing and evaluate them for their work
  5. Offer - if you like the person make them happy
 
-It's really important to understand the difference between 2. and 3.: 2. is a conversation you have with the person just to understand if they seems pleasant to talk with and they're not completely lying about their resume, 3. is an interview you have with that person. 
-
-Differences are important: 2. conversation, 3. interview. Don't interview over the phone, give shy / introvert / ... people a chance to compete with others at the same level.
+It's really important to understand the difference between 2. and 3.: 2. is a conversation you have with the person just to understand if they seems pleasant to talk with and they're not completely lying about their resume, 3. is an interview you have with that person. 2. conversation, 3. interview. Don't interview over the phone, give shy or introvert people a chance to compete with others on the same level.
 
 ### Offer checklist
 
+ * Why should they work with you?
  * Do you accept remote / offer sponsorship?
  * Be open and include a salary range
- * Don't look for ninjas, please, don't
+ * Don't look for ninjas, please, don't 
  * What will the candidate do?
  * How the candidate will do that? 
  * Where the candidate will do that?
+ * For how long the candidate will do that?
 
 ### (almost) Everyone gets rejected
 
