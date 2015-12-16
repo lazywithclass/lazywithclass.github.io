@@ -35,9 +35,9 @@ If you say that, for example
 
 > the input can come from stdin or file
 
-make sure that you clearly state that
+make sure that you clearly state that either
 
- * the solution should accept both
+ * the solution should accept both, or
  * the solution can accept one or the other
 
 Because it's important that you don't mark people down for actually following the specs. Communication is king during the interview, it's really annoying when you're sure you did it right but no, in the end you didn't, especially if just misunderstood the specs, especially if you knew how to do it the other way also.
@@ -58,7 +58,7 @@ you are not feeling the pressure of coming up with "The Good Reasoning And Thoug
 
 * you start thinking about it
 
-I am here. 8 years ago or something like that I tried setting up a service for uploading images with a short url as result, but it's not something I recall with pride and it never worked out in practice. So I might say I tried but the gained experience wasn't enough for me to level up.
+I am here. 8 years ago or something like that I tried setting up a service for uploading images with a short url as result, but it's not something I recall with pride and it never worked out in practice. So I might say I tried but the gained experience wasn't enough for me to levmakel up.
 
 The bottom line is: do you really want to hire a developer that aces interviews or a developer that can work their way through the problems they will face?
 
