@@ -10,10 +10,21 @@ https://www.google.co.uk/search?q=pull+request+vs+pair+program
 [tl;dr](#tl;dr)
 
 
-Comparison of time
+### Time
 
 The amount of time spent pair programming is greater than that spent reviewing, this is because you are exploring the possible solutions, discussing alternatives, etc.
 
+### Decision paths
+
+Why a portion of code has a certain shape is something only you know in the case of pull requests, in pair programming instead is a process shared between two individuals.
+
+### Early feedback
+
+The other person pairing with you is giving you immediate feedback on the code you're writing, that could be used to drive the final implementation to a more readable result.
+
+### Help
+
+If you did not correctly understand a story or are missing some detail there's some chance that the other person got it right, so you don't have to wait for the whole cycle to understand you got it wrong
 
 ### In pair programming you
 
@@ -36,4 +47,4 @@ Or probably I've been doing this wrong the whole time.
 
 #### tl;dr
 
-I feel pair programming to be vastly superior to pull requests, my view is that you could pair program and use pull requests, or just pair program, but not just use pull requests.
+I feel pair programming to be vastly superior to pull requests. My view is that you could pair program and use pull requests, or just pair program, but not just use pull requests.
