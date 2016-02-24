@@ -22,15 +22,15 @@ Feel free to open issues or fork to point out / fix errors.
 Three different ways of importing a module:
 
 ```elm
-import Char -- is importing Char as itself so you can write Char.isDigit
-import Html exposing (..) - is adding all functions in Html in the current scope
-                            so you can write div [] [ text "oh hai" ]
+import Char {- is importing Char as itself so you can write Char.isDigit -}
+import Html exposing (..) {- is adding all functions in Html in the current scope
+                            so you can write div [] [ text "oh hai" ] -}
 import Html.Attributes as Attr exposing (..)
 import Html.Events exposing (..)
 import Http
-import Json.Decode as Json exposing ((:=)) -- is allowing to call Json.Decode as Json,
+import Json.Decode as Json exposing ((:=)) {- is allowing to call Json.Decode as Json,
                                               the last bit exposes := from Json, you need
-                                              ( and ) because it's a symbol
+                                              ( and ) because it's a symbol -}
 import String
 import Task exposing (..)
 ```
@@ -41,12 +41,10 @@ import Task exposing (..)
 #### Result
 
 ```elm
-{-
-Result abstracts an operation that could succeed or fail. It is defined as
+-- Result abstracts an operation that could succeed or fail. It is defined as
 type Result error value
     = Ok value
     | Err error
--}
 ```
 
 #### View
@@ -120,14 +118,18 @@ query =
 
 ```elm
 {-
-results is a [Mailbox](http://elm-lang.org/blog/announce/0.15#introducing-mailboxes)
-(and [here](https://github.com/elm-guides/elm-for-js/blob/master/Mailboxes%2C%20Messages%2C%20and%20Addresses.md) that
-contains a Result, which will be a String in case of error or a List String in case of success.
+results is a Mailbox that contains a Result, which will be a String in case of error
+or a List String in case of success.
 -}
 results : Signal.Mailbox (Result String (List String))
 results =
   Signal.mailbox (Err "A valid US zip code is 5 numbers.")
 ```
+
+Explanations of what a `Mailbox` is:
+
+ * http://elm-lang.org/blog/announce/0.15#introducing-mailboxes
+ * https://github.com/elm-guides/elm-for-js/blob/master/Mailboxes%2C%20Messages%2C%20and%20Addresses.md
 
 #### Port
 
@@ -135,7 +137,7 @@ results =
 
 ```elm
 port requests : Signal (Task x ())
--- in this case we are communicating *to* JavaScript.
+{- in this case we are communicating *to* JavaScript. -}
 port requests =
   Signal.map lookupZipCode query.signal
   {-
