@@ -1,41 +1,44 @@
 # Studying Elm async call syntax
 
-I'm finding it pretty difficult to lern, so I'm writing a blog post.
+I'm finding it pretty difficult to learn, so I'm writing a blog post.
 
 ### The example
 
 I am going to study on the [zip-codes example](http://elm-lang.org/examples/zip-codes).
-I hope this will allow me (and hoepfully someone else) to understand the concepts.
+I hope this will allow me (and hopefully someone else) to understand the concepts.
 At [the bottom of this post](#resources) you can find all the resurces I've used to find the
-information needed.
+needed information.
 
 ### The code
 
-I am going to post small chuncks of code and comment them, I cannot
+I am going to post small chunks of code and comment them, I cannot
 guarantee though that the explanation is correct (or that I've explained everything), I
 can guarantee though that I made all efforts possible to do so.
 
 Feel free to open issues or fork to point out / fix errors.
 
+#### Imports
+
+Three different ways of importing a module:
 
 ```elm
-import Char
-import Html exposing (..)
+import Char -- is importing Char as itself so you can write Char.isDigit
+import Html exposing (..) - is adding all functions in Html in the current scope
+                            so you can write div [] [ text "oh hai" ]
 import Html.Attributes as Attr exposing (..)
 import Html.Events exposing (..)
 import Http
-import Json.Decode as Json exposing ((:=))
+import Json.Decode as Json exposing ((:=)) -- is allowing to call Json.Decode as Json,
+                                              the last bit exposes := from Json, you need
+                                              ( and ) because it's a symbol
 import String
 import Task exposing (..)
 ```
 
-There are three different ways of importing a module here:
-1. `import Char` is importing `Char` as itself so: `Char.isDigit`
-2. `import Html exposing (..)` is adding all functions in `Html` in the current scope so: `div [] [ text "oh hai" ]`
-3. `import Json.Decode as Json exposing ((:=))` is allowing to call `Json.Decode` as `Json`, the last bit exposes
-from Json, you need `(` and `)` because it's a symbol, `:=` is explained
-[here](http://package.elm-lang.org/packages/elm-lang/core/3.0.0/Json-Decode#:=)
+`:=` is explained [here](http://package.elm-lang.org/packages/elm-lang/core/3.0.0/Json-Decode#:=).
 
+
+#### Result
 
 ```elm
 {-
@@ -43,8 +46,15 @@ Result abstracts an operation that could succeed or fail. It is defined as
 type Result error value
     = Ok value
     | Err error
+-}
+```
 
-In the following case the error value will be a single message, while the succeed value will be a list of strings.
+#### View
+
+```elm
+{-
+The error value will be a single message, while the
+succeed value will be a list of strings.
 -}
 view : String -> Result String (List String) -> Html
 view string result =
@@ -68,7 +78,13 @@ view string result =
       div [] (field :: messages)
 ```
 
+#### CSS
+
 ```elm
+{-
+myStyle returns an Attribute which is formed by an array of tuples
+representing CSS styles
+-}
 myStyle : Attribute
 myStyle =
   style
@@ -80,40 +96,46 @@ myStyle =
     ]
 ```
 
-`myStyle` returns an `Attribute` which is formed by an array of tuples representing CSS styles.
-
--- WIRING
+#### Main
 
 ```elm
 main =
   Signal.map2 view query.signal results.signal
 ```
 
-Whenever the value represented by either `query.signal` or `results.signal` changes it is mapped to
-`view`, using [`Signal.map2`](http://package.elm-lang.org/packages/elm-lang/core/latest/Signal#map2).
+
+#### Query Signal
 
 ```elm
+{-
+Whenever the value represented by either query.signal or results.signal changes it is mapped to
+view, using [Signal.map2](http://package.elm-lang.org/packages/elm-lang/core/latest/Signal#map2)
+-}
 query : Signal.Mailbox String
 query =
   Signal.mailbox ""
 ```
 
-`results` is a [`Mailbox`](http://elm-lang.org/blog/announce/0.15#introducing-mailboxes)
-(and [https://github.com/elm-guides/elm-for-js/blob/master/Mailboxes%2C%20Messages%2C%20and%20Addresses.md](here) also
-that contains a `Result`, which will be a `String` in case of error or a `List String` in case of success.
+#### Results Signal
 
 ```elm
+{-
+results is a [Mailbox](http://elm-lang.org/blog/announce/0.15#introducing-mailboxes)
+(and [here](https://github.com/elm-guides/elm-for-js/blob/master/Mailboxes%2C%20Messages%2C%20and%20Addresses.md) that
+contains a Result, which will be a String in case of error or a List String in case of success.
+-}
 results : Signal.Mailbox (Result String (List String))
 results =
   Signal.mailbox (Err "A valid US zip code is 5 numbers.")
 ```
 
+#### Port
+
+[Ports](http://elm-lang.org/guide/interop#ports) let you communicate with JavaScript.
+
 ```elm
 port requests : Signal (Task x ())
-{-
-[Ports](http://elm-lang.org/guide/interop#ports) let you communicate with JavaScript
-In this case we are communicating *to* JavaScript.
--}
+-- in this case we are communicating *to* JavaScript.
 port requests =
   Signal.map lookupZipCode query.signal
   {-
@@ -122,8 +144,7 @@ port requests =
   -}
     |> Signal.map (\task -> Task.toResult task `andThen` Signal.send results.address)
     {-
-    |> is the [forward function application](http://package.elm-lang.org/packages/elm-lang/core/3.0.0/Basics#|>)
-    , you could use it as follows:
+    |> is the forward function application, you could use it as follows:
 
     double a =
       a * 2
@@ -139,11 +160,17 @@ port requests =
     -}
 
     {-
-    [Task.toResult](http://package.elm-lang.org/packages/elm-lang/core/latest/Task#toResult) ensures that
-    the task will never fail by joining the error and the result of the HTTP query (what the docs above call x and a)
+    Task.toResult ensures that the task will never fail by joining the error and the
+    result of the HTTP query (what the docs above call x and a)
     Result will then be sent to results.address (remember that results is the mailbox)
     -}
 ```
+
+[Forward function application](http://package.elm-lang.org/packages/elm-lang/core/latest/Basics#|>)
+[Task.toResult](http://package.elm-lang.org/packages/elm-lang/core/latest/Task#toResult)
+
+
+#### HTTP call
 
 ```elm
 lookupZipCode : String -> Task String (List String)
