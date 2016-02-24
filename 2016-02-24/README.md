@@ -1,4 +1,4 @@
-# Studying Elm async call syntax
+# Studying Elm
 
 I'm finding it pretty difficult to learn, so I'm writing a blog post.
 
