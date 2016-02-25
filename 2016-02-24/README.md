@@ -22,15 +22,21 @@ Feel free to open issues or fork to point out / fix errors.
 Three different ways of importing a module:
 
 ```elm
-import Char {- is importing Char as itself so you can write Char.isDigit -}
-import Html exposing (..) {- is adding all functions in Html in the current scope
-                            so you can write div [] [ text "oh hai" ] -}
+import Char
+-- is importing Char as itself so you can write Char.isDigit
+import Html exposing (..)
+{ -
+is adding all functions in Html in the current scope so you can
+write div [] [ text "oh hai" ]
+-}
 import Html.Attributes as Attr exposing (..)
 import Html.Events exposing (..)
 import Http
-import Json.Decode as Json exposing ((:=)) {- is allowing to call Json.Decode as Json,
-                                              the last bit exposes := from Json, you need
-                                              ( and ) because it's a symbol -}
+import Json.Decode as Json exposing ((:=))
+{-
+is allowing to call Json.Decode as Json, the last bit exposes := from
+Json, you need ( and ) because it's a symbol
+-}
 import String
 import Task exposing (..)
 ```
@@ -96,10 +102,16 @@ myStyle =
 
 #### Main
 
+`main` gets run when the program starts, whenver the value of `query.signal` or
+`results.signal` changes they are mapped to `view` using `Signal.map2`, which produces the HTML that is
+ultimately shown on the page.
+
 ```elm
 main =
   Signal.map2 view query.signal results.signal
 ```
+
+[Signal.map2](http://package.elm-lang.org/packages/elm-lang/core/latest/Signal#map2)
 
 
 #### Query Signal
@@ -107,7 +119,7 @@ main =
 ```elm
 {-
 Whenever the value represented by either query.signal or results.signal changes it is mapped to
-view, using [Signal.map2](http://package.elm-lang.org/packages/elm-lang/core/latest/Signal#map2)
+view, using Signal.map2
 -}
 query : Signal.Mailbox String
 query =
@@ -159,9 +171,7 @@ port requests =
         |> double
 
     instead of double (add 2 1), you can see how it's useful with lots of function calls.
-    -}
 
-    {-
     Task.toResult ensures that the task will never fail by joining the error and the
     result of the HTTP query (what the docs above call x and a)
     Result will then be sent to results.address (remember that results is the mailbox)
@@ -170,6 +180,7 @@ port requests =
 
 [Forward function application](http://package.elm-lang.org/packages/elm-lang/core/latest/Basics#|>)
 [Task.toResult](http://package.elm-lang.org/packages/elm-lang/core/latest/Task#toResult)
+[andThen](http://package.elm-lang.org/packages/elm-lang/core/latest/Maybe#andThen)
 
 
 #### HTTP call
@@ -186,23 +197,39 @@ lookupZipCode query =
   let toUrl =
         if String.length query == 5 && String.all Char.isDigit query
           then succeed ("http://api.zippopotam.us/us/" ++ query)
+          -- succeed is part of Task, succeeds when run
           else fail "Give me a valid US zip code!"
+          -- fail is part of Task, fails when run
   in
       toUrl `andThen` (mapError (always "Not found :(") << Http.get places)
+```
 
+[Task.succeed](http://package.elm-lang.org/packages/elm-lang/core/latest/Task#succeed)
+[<<](http://elm-lang.org/blog/announce/0.13#new-function-composition-operators)
 
+#### JSON Decoder
+
+[`Json.Decode`](http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Decode) turns JSON values into Elm values.
+
+```elm
 places : Json.Decoder (List String)
 places =
   let place =
         Json.object2 (\city state -> city ++ ", " ++ state)
+        -- extracts the following two fields from the object
           ("place name" := Json.string)
           ("state" := Json.string)
   in
       "places" := Json.list place
+      -- := applies the Decoder to "places"
 ```
+
+[:=](http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Decode#:=)
+
 
 ### Resources
 
+ * http://elm-lang.org/docs (rly?)
  * https://github.com/izdi/elm-cheat-sheet
  * https://gist.github.com/ohanhi/0d3d83cf3f0d7bbea9db
  * http://elm-lang.org/examples (of course)
