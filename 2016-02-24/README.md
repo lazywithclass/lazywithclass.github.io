@@ -41,7 +41,7 @@ import String
 import Task exposing (..)
 ```
 
-`:=` is explained [here](http://package.elm-lang.org/packages/elm-lang/core/3.0.0/Json-Decode#:=).
+* `:=` is explained [here](http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Decode#:=).
 
 
 #### Result
@@ -111,7 +111,7 @@ main =
   Signal.map2 view query.signal results.signal
 ```
 
-[Signal.map2](http://package.elm-lang.org/packages/elm-lang/core/latest/Signal#map2)
+ * [Signal.map2](http://package.elm-lang.org/packages/elm-lang/core/latest/Signal#map2)
 
 
 #### Query Signal
@@ -178,9 +178,9 @@ port requests =
     -}
 ```
 
-[Forward function application](http://package.elm-lang.org/packages/elm-lang/core/latest/Basics#|>)
-[Task.toResult](http://package.elm-lang.org/packages/elm-lang/core/latest/Task#toResult)
-[andThen](http://package.elm-lang.org/packages/elm-lang/core/latest/Maybe#andThen)
+ * [Forward function application](http://package.elm-lang.org/packages/elm-lang/core/latest/Basics#|>)
+ * [Task.toResult](http://package.elm-lang.org/packages/elm-lang/core/latest/Task#toResult)
+ * [andThen](http://package.elm-lang.org/packages/elm-lang/core/latest/Maybe#andThen)
 
 
 #### HTTP call
@@ -204,8 +204,8 @@ lookupZipCode query =
       toUrl `andThen` (mapError (always "Not found :(") << Http.get places)
 ```
 
-[Task.succeed](http://package.elm-lang.org/packages/elm-lang/core/latest/Task#succeed)
-[<<](http://elm-lang.org/blog/announce/0.13#new-function-composition-operators)
+ * [Task.succeed](http://package.elm-lang.org/packages/elm-lang/core/latest/Task#succeed)
+ * [<<](http://elm-lang.org/blog/announce/0.13#new-function-composition-operators)
 
 #### JSON Decoder
 
@@ -223,8 +223,6 @@ places =
       "places" := Json.list place
       -- := applies the Decoder to "places"
 ```
-
-[:=](http://package.elm-lang.org/packages/elm-lang/core/latest/Json-Decode#:=)
 
 
 ### Resources
