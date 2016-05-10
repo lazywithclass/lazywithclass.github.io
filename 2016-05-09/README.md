@@ -30,6 +30,12 @@ To avoid having pane numbers starting from 0 I have this in my .tmux.conf
 setw -g pane-base-index 1
 ```
 
+I've found it useful to have the pane number in my `RPS1`, so I know where to switch, use this:
+
+```
+echo $(tmux display-message -p '#P')
+```
+
 ### Drawbacks
 
 You have to be careful when you write a space followed by a number (it happens in my workflow as I use 
