@@ -66,7 +66,7 @@ module.exports = new Contract({
 ```
 [source](contract.js)
 
-You can now `consumer-contracts run contract.js`, if everything
+You can now run `consumer-contracts run contract.js`, if everything
 goes as expected then you got this output:
 
 
@@ -91,7 +91,7 @@ require('swaggins').probe()
 
 What that does is [proxy `http.request`](https://github.com/lazywithclass/swaggins/blob/master/index.js#L7) and extract information from the `res` object.
 
-[Here](swagger.json) you could the Swagger JSON definition extract by running the contract we defined, with swagger wired in.
+[Here](swagger.json) you could see the Swagger JSON definition extract by running the contract we defined, with swagger wired in.
 
 Now if you follow these steps you will see the docs, simple
 (I still need to filter out some headers, but you got the idea):
