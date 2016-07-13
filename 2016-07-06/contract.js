@@ -2,6 +2,8 @@ var Contract = require('consumer-contracts').Contract,
     Joi = require('consumer-contracts').Joi
 
 
+require('swaggins').probe();
+
 module.exports = new Contract({
   name: 'A friendly greet',
   consumer: 'conversation-starter',
