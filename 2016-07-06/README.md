@@ -91,7 +91,7 @@ require('swaggins').probe()
 
 What that does is [proxy `http.request`](https://github.com/lazywithclass/swaggins/blob/master/index.js#L7) and extract information from the `res` object.
 
-[Here](swagger.json) you could see the Swagger JSON definition extract by running the contract we defined, with swagger wired in.
+[Here](swagger.json) you could see the Swagger JSON definition extract by running the contract we defined, with swaggins wired in.
 
 Now if you follow these steps you will see the docs, simple
 (I still need to filter out some headers, but you got the idea):
