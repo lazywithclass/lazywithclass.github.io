@@ -1,0 +1,45 @@
+{
+  "swagger": "2",
+  "info": {
+    "version": "?.?.?",
+    "title": ""
+  },
+  "paths": {
+    "/greet": {
+      "get": {
+        "responses": {
+          "200": {
+            "headers": {
+              "x-powered-by": {
+                "type": "string",
+                "example": "Express"
+              },
+              "content-type": {
+                "type": "string",
+                "example": "text/html; charset=utf-8"
+              },
+              "content-length": {
+                "type": "string",
+                "example": "6"
+              },
+              "etag": {
+                "type": "string",
+                "example": "W/\"6-Wo3TrQdWqT3tcrgjsZ3Ydw\""
+              },
+              "date": {
+                "type": "string",
+                "example": "Wed, 13 Jul 2016 11:00:00 GMT"
+              },
+              "connection": {
+                "type": "string",
+                "example": "close"
+              }
+            }
+          }
+        },
+        "parameters": []
+      }
+    }
+  },
+  "definitions": {}
+}
