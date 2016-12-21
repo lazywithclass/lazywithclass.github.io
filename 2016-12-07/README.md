@@ -1,4 +1,4 @@
-# -174
+# CSE373 lecture, Ubuntu weirdness, winston-cloudwatch behaviour (-174)
 
  * CSE373 2012 - Lecture 17 - Backtracking
 
