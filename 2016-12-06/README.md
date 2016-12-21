@@ -1,4 +1,4 @@
-# -175
+# CSE373 lesson, work on winston-cloudwatch, Emacs xwidgets (-175)
 
 https://days.to/31-may/2017
 
