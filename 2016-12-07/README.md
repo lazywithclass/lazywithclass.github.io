@@ -1,10 +1,10 @@
-# CSE373 lecture, Ubuntu weirdness, winston-cloudwatch behaviour (-174)
+## CSE373 lecture, Ubuntu weirdness, winston-cloudwatch behaviour (-174)
 
- * CSE373 2012 - Lecture 17 - Backtracking
+### CSE373 2012 - Lecture 17 - Backtracking
 
 https://www.youtube.com/watch?v=RM89rxDh3XQ&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=17
 
- * Addressed the caps-twice-halts-your-pc and suspend-loop problems
+### Addressed the caps-twice-halts-your-pc and suspend-loop problems
 
 The first was the most puzzling one: pressing caps twice in a row would halt my pc with a weird scrambled graphics effect on the monitor.
 It turned out to be a quite [common](https://www.reddit.com/r/razer/comments/5cxpx7/help_razer_blade_stealth_with_ubuntu_1604_suspend/) [problem](https://www.reddit.com/r/razer/comments/447vrn/razer_blade_stealth_linux/) and somehow linked to the suspend-loop one.
