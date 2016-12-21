@@ -1,10 +1,10 @@
-# CSE373 lecture, winston-cloudwatch process inspection, Ubuntu 16.10 daily crash (-168)
+## CSE373 lecture, winston-cloudwatch process inspection, Ubuntu 16.10 daily crash (-168)
 
- * CSE373 2012 - Lecture 18 - Exhaustive Search & Backtracking
+### CSE373 2012 - Lecture 18 - Exhaustive Search & Backtracking
 
 https://www.youtube.com/watch?v=usxrn66JDEo&feature=youtu.be&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
 
- * winston-cloudwatch process inspection 
+### winston-cloudwatch process inspection 
  
  Started creating a couple scripts to mimic a real life process that logs
  to AWS CloudWatch, basically a running process that listens for `SIGUSR1`
@@ -25,7 +25,7 @@ winston.loggers.get('category2').error('2');
 
 two intervals are started, which is something that should not happen.
 
- * Dealing with continuous crashes on my Ubuntu 16.10
+### Dealing with continuous crashes on my Ubuntu 16.10
  
  I have half a dozen error reports a day, plus once a day the screen freezes with a gray color with
  a graphical effect as if it was an old TV being turned off (a central white line collapsing to a dot).
