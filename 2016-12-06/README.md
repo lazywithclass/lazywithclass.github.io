@@ -10,26 +10,26 @@ except me.
 
 Anyway here it is:
 
- * CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3)
+#### CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3)
 
  https://www.youtube.com/watch?v=jgDOQq6iWy8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=16
 
- * Released version 1.10.0 for winston-cloudwatch 
+#### Released version 1.10.0 for winston-cloudwatch 
 
 https://github.com/lazywithclass/winston-cloudwatch
 
- * Started looking into a bug reported for winston-cloudwatch
+#### Started looking into a bug reported for winston-cloudwatch
  
  https://github.com/lazywithclass/winston-cloudwatch/issues/55
 
- * Embedding WebKit in Emacs: XWidgets+WebKit Feature Preview
+#### Embedding WebKit in Emacs: XWidgets+WebKit Feature Preview
 
 https://www.youtube.com/watch?v=J2YdjpWJJHs
 
 I'm trying to see if there's some way to programmatically talk to XWidgets, 
 specifically talk with WebKit, it would be great to be able to evaluate JavaScript code.
 
-### Installing Emacs
+##### Installing Emacs
 
 This is what I did to get to a version that has XWidgets capability
 
@@ -39,7 +39,7 @@ $ sudo apt-get update
 $ sudo apt-get install emacs-snapshot
 ```
 
-### Playing with XWidget and WebKit
+##### Playing with XWidget and WebKit
 
 I know nothing about XWidget and WebKit.
 
