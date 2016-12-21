@@ -1,4 +1,4 @@
-# -168
+# CSE373 lecture, winston-cloudwatch process inspection, Ubuntu 16.10 daily crash (-168)
 
  * CSE373 2012 - Lecture 18 - Exhaustive Search & Backtracking
 
