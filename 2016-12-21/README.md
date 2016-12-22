@@ -26,24 +26,24 @@ the string identifying the place in the code where the call originated from.
 There are two minor problems I'm aware of, minor because the library seems
 to work correctly:
 
- 1. Sometimes when `node examples/multiple-loggers.js` I get
+* Sometimes when `node examples/multiple-loggers.js` I get
  
- > { InvalidSequenceTokenException: The given sequenceToken is invalid. The next expected sequenceToken is: XXX
- > [...]
- > message: 'The given sequenceToken is invalid. The next expected sequenceToken is: XXXXXX',
- > code: 'InvalidSequenceTokenException',
- > time: 2016-12-21T22:34:22.215Z,
- > requestId: 'YYY',
- > statusCode: 400,
- > retryable: false,
- > retryDelay: 88.9125096887647 }
+> { InvalidSequenceTokenException: The given sequenceToken is invalid. The next expected sequenceToken is: XXX
+> [...]
+> message: 'The given sequenceToken is invalid. The next expected sequenceToken is: XXXXXX',
+> code: 'InvalidSequenceTokenException',
+> time: 2016-12-21T22:34:22.215Z,
+> requestId: 'YYY',
+> statusCode: 400,
+> retryable: false,
+> retryDelay: 88.9125096887647 }
 
 It has to do with the fact that I'm issuing two calls almost simultaneously, 
 in fact only one of the two calls fails, the strange thing is that logging does 
 not resume afterwards.
 
- 2. https://github.com/lazywithclass/winston-cloudwatch/issues/55, which should
- not happen, it shouldn't be possible to arrive in 
- lib/cloudwatch-integration.json with an empty payload, it could be due the fact
- that I am changing `logEvents` in place and using it within a `setInterval`, but
- that's just a guess.
+* https://github.com/lazywithclass/winston-cloudwatch/issues/55, which should
+not happen, it shouldn't be possible to arrive in 
+lib/cloudwatch-integration.json with an empty payload, it could be due the fact
+that I am changing `logEvents` in place and using it within a `setInterval`, but
+that's just a guess.
