@@ -1,4 +1,4 @@
-# CSE373 lectures, Ubuntu 16.10 daily crash, winston-cloudwatch process inspection
+## CSE373 lectures, Ubuntu 16.10 daily crash, winston-cloudwatch process inspection
 
 I finally relocated back to Italy, I will now have way more time to study as I am
 taking a month and a half off (till RC which is in early February).
