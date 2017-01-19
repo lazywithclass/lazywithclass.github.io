@@ -1,4 +1,4 @@
-## COMP300E and struggle on dynamic programming
+## COMP300E and struggle on dynamic programming (-131)
 
 So... I've stopped for a while trying to solve [this homework](https://www3.cs.stonybrook.edu/~skiena/373/hw/hw4.pdf),
 I finally am sure I spent too much time on it without finding a good way to approach it, I will then
