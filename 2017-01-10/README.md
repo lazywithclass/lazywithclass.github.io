@@ -13,3 +13,6 @@ https://www.youtube.com/watch?v=3dkbFf82_b8&feature=youtu.be&list=PL07B3F10B4859
 First thing one notices is that this course has much better video, there's a camera that zooms
 onto the whiteboard, something that never happened in CSE373, which led to very difficult to understand 
 passages in some of the lectures.
+
+Enrolling in [prof Skiena's class](http://www.programming-challenges.com/pg.php?page=classroominfo&classid=812) is a good start, so you get all the problems that
+he will assign during his lectures.
