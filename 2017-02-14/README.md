@@ -31,15 +31,15 @@ Started Clojure Applied.
 Recursively extracts the first element of the `xs` list and appends to it
 the remainder of `xs` and `ys`.
 `:` is "cons" in Haskell land.
-TODO It's not really clear to me how `ys` gets appended, it looks like only `xs` is.
-It looks like `:` only works if the left parameter is not a list, but it's ok for
-the second to be a list.
+It looks like `:` only works if the left parameter is not a list, but it's
+ok for the second to be a list.
 
 > ```haskell
 > rev :: [a] -> [a]
 > rev []     = []
 > rev (x:xs) = append (rev xs) [x]
 > ```
+`(x:xs)` binds the names
 
 Recursively extracts the first element of the `xs` list appending it at the end.
 
@@ -66,15 +66,7 @@ Recursively extracts the first element of the `xs` list appending it at the end.
 > == ys                       (def of append)
 > 
 > 2. Calculate appendRev (x:xs) ys in a similar manner.
-
-```haskell
-appendRev (x:xs) ys
-== append (rev [x]) ys         (appendRev)
-== append [x] ys               (the reverse of a single element array is the same array)
-== x:(append [] ys)            (append)
-== ys                          (append)
-```
-
+>
 > 3. Reimplement appendRev using (1) and (2).
 >
 > 4. Reimplement rev to use appendRev from (3).
