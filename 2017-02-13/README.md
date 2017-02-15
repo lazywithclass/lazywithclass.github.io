@@ -26,13 +26,14 @@ With the help of a recent grad in CS:
 With those two in mind I have space for a couple more activities during
 my batch, I think I have to choose from:
 
+ * learning Haskell and how dependent types are useful
  * attending security oriented Capture The Flag events
  * pair with people on Whatever™
  * join mock interviews 
  * join an algorithms and data structures study group
  
 I don't think I can make all of them work at the same time, so possibly I have 
-to drop the first :(
+to drop some :(
 
 #### Next few days
 

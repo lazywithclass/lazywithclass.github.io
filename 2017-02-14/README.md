@@ -90,3 +90,11 @@ modify them as needed to grasp the details in a complete way.
 
 I think one thing that could be done is temporarily use tryhaskell.org/eval endpoint to see
 if our idea of having an interactive website would work.
+
+
+### Plans for tomorrow
+
+ * finish the Haskell exercises, with some advice; also finish preparing the environment
+ * have a look at the [clojure mutation testing library](https://github.com/ds2643/mutcl)
+ * pair some more
+ * work on algorithms and data structures (read, understand, implement)
