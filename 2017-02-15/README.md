@@ -1,4 +1,4 @@
-## [RC S1'17] (-104)
+## [RC S1'17] Hello RC! (-104)
 
 ### Spacemacs basics
 
@@ -162,6 +162,7 @@ Explained the difference between
 ### Plans
 
  * finish the Haskell exercise
+ * have haste server running
  * review JS implementation of Quicksort, discuss with study group
  * look into Clojure mutation testing library 
  * help a fellow recurser to understand how to use AWS services that will help him
