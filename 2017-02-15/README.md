@@ -76,15 +76,15 @@ Divide and conquer example algorithm:
  * base case - simple as possible
  * divide until you get to the base case
 
-`sum([1, 2, 3])`
+`sum([1, 2, 3])`<br />
 is the same as
-`1 + sum([2, 3])`
+`1 + sum([2, 3])`<br />
 and
-`1 + 2 + sum([3])`
+`1 + 2 + sum([3])`<br />
 and
-`1 + 2 + 3 + sum([])`
+`1 + 2 + 3 + sum([])`<br />
 and
-`1 + 2 + 3 + 0 = 6`
+`1 + 2 + 3 + 0 = 6`<br />
 
 ```
 quicksort []  -> easy
