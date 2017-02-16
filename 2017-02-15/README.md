@@ -156,14 +156,15 @@ Explained the difference between
  * integration tests
  * smoke tests
  
- when to use them, why, and what benefits do they bring.
+when to use them, why, and what benefits do they bring.
 
 
 ### Plans
 
+ * attend first meeting of the security group
  * finish the Haskell exercise
  * have haste server running
  * review JS implementation of Quicksort, discuss with study group
  * look into Clojure mutation testing library 
- * help a fellow recurser to understand how to use AWS services that will help him
+ * help a fellow recurser to understand how to use AWS services 
  * game night!
