@@ -1,4 +1,4 @@
-## [RC S1'17] (-105)
+## [RC S1'17] (-104)
 
 ### Spacemacs basics
 
