@@ -86,6 +86,7 @@ and
 and
 `1 + 2 + 3 + 0 = 6`
 
+```
 quicksort []  -> easy
 quicksort [1] -> easy
 so base case is [] or [1]
@@ -105,10 +106,9 @@ so base case is [] or [1]
       ^
 
 10   15    33
+```
 
-done!
-
-so:
+done! So:
 
 1. pick a pivot
 2. partition: less than pivot, greater than the pivot
@@ -116,12 +116,12 @@ so:
 
 O(n log n) ... even though worst case takes O(n^2)
 
-the best way to get the average case is to take a random element as the pivot,
+The best way to get the average case is to take a random element as the pivot,
 half of the times the pivot element will be from the center haf of the sorted
-array
+array.
 
-you got to be unlucky to always pick the worst pivot, so having randomised 
-algorithms is like playing a game that we are always going to win
+You got to be unlucky to always pick the worst pivot, so having randomised 
+algorithms is like playing a game that we are always going to win.
 
 ##### Implementation
 
