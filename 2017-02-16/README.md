@@ -95,18 +95,24 @@ This is about recursion principles and foldable data structures.
 
 > ```haskell
 > -- 1. Define `plusFold` that behaves like `plus` but uses `foldNat`.
+> ```
+```haskell
 plusFold :: Nat -> Nat -> Nat
 plusFold m n = foldNat n Add1 m
 ```
 
 > ```haskell
 > -- 2. Define `timesFold` that behaves like `times` but uses `foldNat`.
+> ```
+```haskell
 timesFold :: Nat -> Nat -> Nat
 timesFold m n = foldNat Zero (\nat -> nat + n) m
 ```
 
 > ```haskell
 > -- 3. Define `powFold` that behaves like `pow` but uses `foldNat`.
+> ```
+```haskell
 powFold :: Nat -> Nat -> Nat
 powFold m n = foldNat (Add1 Zero) (\nat -> nat `times` m) n
 ```
