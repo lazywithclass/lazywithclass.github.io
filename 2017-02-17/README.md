@@ -1,4 +1,4 @@
-## [RC S1'17] Algorithms data structures, Cerebro, thoughts, and 42 (-103)
+## [RC S1'17] Algorithms data structures, Cerebro, thoughts, and 42 (-102)
 
 ### About "giving back to the community"
 
