@@ -121,8 +121,14 @@ which errored, but that means I got it working :b
 
 #### Host setup
 
-TODO
+Looks like there's no need for a server, I will have to dive more into the details.
+
+Have a look at https://github.com/purescript/trypurescript/issues/64
 
 
+### Plans
+
+ * see if I can deploy the code onto S3 or if we need a server (assuming we go the PureSript way)
  * lookup timsort heapsort
-https://en.wikipedia.org/wiki/Timsort
+ * continue working on Cerebro
+ * chapter 2 of the little schemer
