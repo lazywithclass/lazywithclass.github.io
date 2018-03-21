@@ -1,4 +1,4 @@
 lazywithclass.github.io
 =======================
 
-My presence online.
+My online presence.
