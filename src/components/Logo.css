@@ -1,0 +1,18 @@
+.logo > p {
+    color: var(--text-color);
+    margin-top: -10px;
+}
+
+.logo > h1 {
+    font-family: var(--heading-font);
+    margin-bottom: 0px;
+    font-size: 50px;
+    color: var(--heading-color);
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-shadow:
+        2px 0px 15px,
+        5px 0px 100px,
+        20px 0vw 100px var(--heading-shadow-color),
+        40px 0vw 100px var(--heading-shadow-color);
+}

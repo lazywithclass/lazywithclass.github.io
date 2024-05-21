@@ -1,0 +1,13 @@
+h2 {
+    font-family: var(--heading-font);
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: var(--heading-color);
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-shadow:
+        2px 0px 15px,
+        5px 0px 100px,
+        20px 0vw 60px var(--heading-shadow-color),
+        40px 0vw 60px var(--heading-shadow-color);
+}

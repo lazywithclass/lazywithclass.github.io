@@ -1,0 +1,27 @@
+.online-presence {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 40px;
+    padding: 5px 0px 5px 0px;
+    display: flex;
+}
+
+.online-presence > div > a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.online-presence div:nth-child(1) img {
+    width: 25px;
+    margin-right: 5px;
+}
+.online-presence div:nth-child(2) img {
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 15px;
+}

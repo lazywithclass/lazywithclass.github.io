@@ -1,0 +1,13 @@
+.post > span {
+    color: var(--text-color-secondary);
+}
+
+.post > a {
+    color: var(--text-color-secondary);
+}
+.post {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: var(--text-color-secondary);
+}
+
