@@ -2711,6 +2711,7 @@ function toCode(ast, indentation) {
 var ast0 = new exp(2, [[new exp(1, [["c", new ty(0, []), new exp(4, [[new exp(3, [false]), new exp(3, [false]), new exp(3, [true])]])]]), new exp(3, [true])]]);
 var ast1 = new exp(4, [[new exp(3, [true]), new exp(2, [[new exp(1, [["m", new ty(0, []), new exp(3, [false])]]), new exp(3, [false])]]), new exp(3, [true])]]);
 var ast2 = new exp(1, [["z", new ty(1, [new ty(0, []), new ty(1, [new ty(0, []), new ty(1, [new ty(0, []), new ty(0, [])])])]), new exp(4, [[new exp(3, [true]), new exp(3, [true]), new exp(3, [true])]])]]);
+var ast3 = new exp(1, [["v", new ty(1, [new ty(1, [new ty(0, []), new ty(1, [new ty(0, []), new ty(1, [new ty(1, [new ty(0, []), new ty(0, [])]), new ty(0, [])])])]), new ty(0, [])]), new exp(4, [[new exp(3, [true]), new exp(2, [[new exp(1, [["U", new ty(0, []), new exp(3, [true])]]), new exp(3, [true])]]), new exp(2, [[new exp(1, [["G", new ty(0, []), new exp(3, [false])]]), new exp(3, [false])]])]])]]);
 function shuffleG(xs) {
   return sortBy((_arg) => newGuid(), xs, {
     Compare: comparePrimitives
@@ -2718,7 +2719,7 @@ function shuffleG(xs) {
 }
 function verify() {
   let arg_3;
-  const ast = head2(shuffleG([ast0, ast1, ast2]));
+  const ast = head2(shuffleG([ast0, ast1, ast2, ast3]));
   const resS = evalS(ast);
   const resC = evalC(empty2({
     Compare: comparePrimitives
@@ -2729,6 +2730,7 @@ export {
   ast0,
   ast1,
   ast2,
+  ast3,
   shuffleG,
   toCode,
   verify,
