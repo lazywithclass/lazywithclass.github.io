@@ -16,3 +16,10 @@
         20px 0vw 100px var(--heading-shadow-color),
         40px 0vw 100px var(--heading-shadow-color);
 }
+
+
+@media screen and (max-width: 600px) {
+    .logo > h1 {
+        font-size: 42px;
+    }
+}
