@@ -10,6 +10,11 @@ export const posts = [
     "title": "Long time no see"
   },
   {
+    "date": "2024.05.29",
+    "link": "https://gist.github.com/lazywithclass/53a8bfb3bd6a939a65f3bc45c2899635",
+    "title": "Long time no see"
+  },
+  {
     "date": "2018.03.21",
     "link": "https://gist.github.com/lazywithclass/8247698aef5ac50476406dc74f26fa93",
     "title": "Bandwidth throttling on FreeBSD"
