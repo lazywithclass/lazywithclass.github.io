@@ -1,5 +1,10 @@
 export const posts = [
   {
+    "date": "2024.06.25",
+    "link": "https://gist.github.com/lazywithclass/f9d8494075d01205d201e1bdddbc799b",
+    "title": "A better Youtube experience"
+  },
+  {
     "date": "2024.05.29",
     "link": "https://gist.github.com/lazywithclass/53a8bfb3bd6a939a65f3bc45c2899635",
     "title": "Long time no see"
