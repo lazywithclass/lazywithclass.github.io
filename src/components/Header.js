@@ -9,6 +9,9 @@ export default function Header() {
       <Logo />
       <div className="online-presence">
         <div>
+          <a href="https://learn.lazywithclass.com"><img src="📚" /><span>Learning materials</span></a>
+        </div>
+        <div>
           <a href="https://stackoverflow.com/users/57095/alberto-zaccagni"><img src={so} /><span>スタックオーバーフロー</span></a>
         </div>
         <div>
